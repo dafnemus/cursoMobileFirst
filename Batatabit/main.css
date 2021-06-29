@@ -110,6 +110,12 @@ main .main-contain-features {
   padding-bottom: 30px;
 }
 
+main .batata {
+  position: absolute;
+  left: 43%;
+  width: 60px;
+  height: 45px;
+}
 main .main-contain-features h2 {
   margin: 20px;
   padding-top: 66px;
