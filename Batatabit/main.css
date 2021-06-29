@@ -41,4 +41,62 @@ main .main-contain-bit {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background-color: #faf8f7;
+}
+
+main .main-contain-bit .img-bit {
+    margin: 15px;
+}
+
+main .main-contain-bit h2 {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+main .main-contain-bit p {
+    color: #757575;
+    font-size: 15px;
+    margin: 0px 20px 20px 20px;
+}
+
+main .main-contain-bit .table-contain {
+    text-align: start;
+    background-color: #faf8f7;
+}
+main .table-contain #title-table {
+    color: #ff9536;
+    font-size: 23px;
+}
+
+main .table-contain table {
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main table, tr, td {
+    border-bottom: 3px solid #faf8f7;
+}
+
+main .table-contain p {
+    padding: 8px;
+    background-color: #FFE9D4;
+    border-radius: 10px;
+}
+
+main .table-contain p b {
+    font-weight: 700;
+    color: black;
+}
+
+main .table-contain table .coins {
+    color: #b5b0ac;
+    font-weight: 500;
+}
+
+main .table-contain table .price {
+    color: #757575;
 }
