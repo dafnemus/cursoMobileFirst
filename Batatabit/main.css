@@ -17,12 +17,12 @@ header {
 
 header img {
     height: 30px;
-    margin: 30px;
+    margin: 40px;
 }
 
 header h2 {
     font-size: 30px;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 header p {
@@ -31,9 +31,19 @@ header p {
 }
 
 header button {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 1px 1px #5d5e5e; 
+    box-shadow: 0 1px 1px #5d5e5e;
+    font-weight: 700;
+    text-align: center;
+    padding: 21px;
+}
+
+header button .icon-dropdown {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
 }
