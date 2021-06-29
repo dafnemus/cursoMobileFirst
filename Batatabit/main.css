@@ -3,10 +3,12 @@ body {
   padding: 0;
   font-family: "DM Sans", sans-serif;
   font-size: 15px;
+  text-align: center;
+  background-color: #e5e5e569;
+  height: 100%;
 }
 
 header {
-  text-align: center;
   background: linear-gradient(to right top, #f7931a, #201e1c);
   width: 100%;
   height: 330px;
@@ -41,8 +43,6 @@ main .main-contain-bit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: #faf8f7;
 }
 
 main .main-contain-bit .img-bit {
@@ -62,7 +62,6 @@ main .main-contain-bit p {
 
 main .main-contain-bit .table-contain {
   text-align: start;
-  background-color: #faf8f7;
 }
 main .table-contain #title-table {
   color: #ff9536;
@@ -98,6 +97,7 @@ main .table-contain p b {
 main .table-contain table .coins {
   color: #b5b0ac;
   font-weight: 500;
+  padding-left: 5px;
 }
 
 main .table-contain table .price {
@@ -107,7 +107,6 @@ main .table-contain table .price {
 main .main-contain-features {
   background-color: #201e1c;
   color: white;
-  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -155,8 +154,64 @@ main .main-contain-image{
 
 main .main-contain-image h2 {
   margin: 0;
-  text-align: center;
   color: white;
   font-size: 27px;
   padding: 60px;
+}
+
+main .main-contain-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main-contain-plan h2 {
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+main .main-contain-plan p {
+  font-size: 17px;
+  color: #757575;
+}
+
+main .main-contain-plan .card-plan {
+  width: 230px;
+  height: 290px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #b2b0abd1;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .card-plan b {
+  font-size: 85px;
+  color: black;
+}
+
+main .card-plan p {
+  color: black;
+  margin: 0;
+  font-size: 19px;
+}
+
+main .card-plan #clarification {
+  font-size: 16px;
+  color: #757575;
+  padding: 19px;
+  font-weight: 500;
+}
+
+main .card-plan button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px;
+  border: 2px solid #F7931A;
+  border-radius: 4px;
 }
