@@ -142,3 +142,21 @@ main .contain-card-feature .icon-feature {
   height: 30px;
   margin-bottom: 10px;
 }
+
+main .main-contain-image{
+  background-image: url('assets/img/bitcoinbaby2x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  height: 400px;
+  width: 100%;
+  margin: 0;
+}
+
+main .main-contain-image h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  padding: 60px;
+}
