@@ -101,3 +101,34 @@ main .table-contain table .coins {
 main .table-contain table .price {
     color: #757575;
 }
+
+main .main-contain-features {
+    background-color: #201E1C;
+    color: white;
+    text-align: center;
+}
+
+main .main-contain-features h2 {
+    margin: 20px;
+    padding-top: 66px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+main .main-contain-features p {
+    color: #808080;
+}
+
+main .main-contain-features .contain-card-feature {
+    text-align: start;
+    margin: 20px;
+    background-color: #282623;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+main .contain-card-feature h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
