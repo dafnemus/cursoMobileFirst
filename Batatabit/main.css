@@ -1,8 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: #e5e5e569;
+  height: 100%;
 }
 
 header {
@@ -10,8 +13,6 @@ header {
     background: linear-gradient(to right top,#F7931A, #201E1C);
     width: 100%;
     height: 330px;
-    position: absolute;
-    top: 0;
     color: white;
 }
 
@@ -21,13 +22,12 @@ header img {
 }
 
 header h2 {
-    font-size: 30px;
+    font-size: 27px;
     margin: 0 20px;
 }
 
 header p {
-    margin: 20px;
-    font-size: 18px;
+  margin: 20px;
 }
 
 header button {
@@ -38,6 +38,7 @@ header button {
     font-weight: 700;
     text-align: center;
     padding: 21px;
+    margin-top: 12px;
 }
 
 header button .icon-dropdown {
@@ -46,4 +47,243 @@ header button .icon-dropdown {
     padding: 0;
     margin: 0;
     margin-left: 10px;
+}
+
+main .main-contain-bit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-contain-bit .img-bit {
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+main .main-contain-bit h2 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+main .main-contain-bit p {
+  color: #757575;
+  font-size: 16px;
+  margin: 0px 20px 20px 20px;
+}
+
+main .main-contain-bit .table-contain {
+  text-align: start;
+}
+main .table-contain #title-table {
+  color: #ff9536;
+  font-size: 23px;
+}
+
+main .table-contain table {
+  width: 200px;
+  height: 190px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+main table,
+tr,
+td {
+  border-bottom: 3px solid #faf8f7;
+}
+
+main .table-contain p {
+  padding: 8px;
+  background-color: #ffe9d4;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+main .table-contain p b {
+  font-weight: 700;
+  color: black;
+}
+
+main .table-contain table .coins {
+  color: #b5b0ac;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+main .table-contain table .price {
+  color: #757575;
+}
+
+main .main-contain-features {
+  background-color: #201e1c;
+  color: white;
+  padding-bottom: 30px;
+}
+
+main .batata {
+  position: absolute;
+  left: 43%;
+  width: 60px;
+  height: 45px;
+}
+main .main-contain-features h2 {
+  margin: 20px;
+  padding-top: 66px;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+main .main-contain-features p {
+  color: #808080;
+  font-size: 17px;
+}
+
+main .main-contain-features .contain-card-feature {
+  text-align: start;
+  margin: 20px;
+  background-color: #282623;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+main .contain-card-feature h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+main .contain-card-feature .icon-feature {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+main .main-contain-image{
+  background-image: url('assets/img/bitcoinbaby2x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  height: 400px;
+  width: 100%;
+  margin: 0;
+}
+
+main .main-contain-image h2 {
+  margin: 0;
+  color: white;
+  font-size: 27px;
+  padding: 60px;
+}
+
+main .main-contain-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main-contain-plan h2 {
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+main .main-contain-plan p {
+  font-size: 17px;
+  color: #757575;
+}
+
+main .main-contain-plan #outstanding {
+  padding: 15px;
+  background-color: #F7931A;
+  color: white;
+  border-radius: 10px;
+}
+main .main-contain-plan .card-plan {
+  width: 230px;
+  height: 290px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #b2b0abd1;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .card-plan b {
+  font-size: 85px;
+  color: black;
+}
+
+main .card-plan p {
+  color: black;
+  margin: 0;
+  font-size: 19px;
+}
+
+
+main .card-plan #clarification {
+  font-size: 16px;
+  color: #757575;
+  padding: 15px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+main .card-plan button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px;
+  border: 2px solid #F7931A;
+  border-radius: 4px;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #f7931a;
+  font-size: 15px;
+  margin-top: 70px;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  text-align: start;
+}
+
+footer .footer-left {
+  justify-content:flex-start;
+}
+
+footer .footer-right {
+  justify-content: flex-end;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+
+footer .footer-right p {
+  margin: 0;
+}
+
+footer ul li a {
+  color:  #3c4043;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 17px;
 }
