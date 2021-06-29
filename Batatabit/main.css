@@ -221,3 +221,45 @@ main .card-plan button {
   border: 2px solid #F7931A;
   border-radius: 4px;
 }
+
+footer {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #f7931a;
+  font-size: 15px;
+  margin-top: 70px;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  text-align: start;
+}
+
+footer .footer-left {
+  justify-content:flex-start;
+}
+
+footer .footer-right {
+  justify-content: flex-end;
+  font-size: 14px;
+}
+
+footer .footer-right p {
+  margin: 0;
+}
+
+footer ul li a {
+  color:  #3c4043;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 17px;
+}
