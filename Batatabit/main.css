@@ -81,7 +81,7 @@ main .table-contain #title-table {
 }
 
 main .table-contain table {
-  width: 200px;
+  width: 250px;
   height: 190px;
   background-color: white;
   border-radius: 10px;
@@ -107,7 +107,11 @@ main .table-contain p b {
   font-weight: 700;
   color: black;
 }
-
+main .table-contain table img {
+  width: 25px;
+  height:20px;
+  margin-left: 5px;
+}
 main .table-contain table .coins {
   color: #b5b0ac;
   font-weight: 500;
@@ -116,6 +120,7 @@ main .table-contain table .coins {
 
 main .table-contain table .price {
   color: #757575;
+  text-align: center;
 }
 
 main .main-contain-features {
