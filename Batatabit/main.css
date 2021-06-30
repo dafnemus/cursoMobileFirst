@@ -205,7 +205,7 @@ main .main-contain-plan .card-plan {
   height: 290px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 2px 2px 2px 2px #b2b0abd1;
+  box-shadow: 2px 2px #b2b0abd1;
   padding-top: 16px;
   display: flex;
   flex-direction: column;
