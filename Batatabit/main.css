@@ -28,10 +28,11 @@ header h2 {
 
 header p {
   margin: 20px;
+  color: #FFE9D5;
 }
 
 header button {
-  font-size: 15px;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
   box-shadow: 0 1px 1px #5d5e5e;
@@ -82,24 +83,24 @@ main .table-contain .title-table {
 }
 
 main .table-contain table {
-  width: 200px;
-  height: 190px;
+  width: 230px;
+  height: 200px;
   background-color: #fff;
   border-radius: 10px;
   margin: 10px;
   font-size: 20px;
 }
 
-main table,
-tr,
+main
 td {
-  border-bottom: 3px solid #faf8f7;
+  box-shadow: 1px 1px #7977755c;
 }
 
 main .table-contain p {
   padding: 8px;
   background-color: #ffe9d4;
   border-radius: 10px;
+  color: #000;
 }
 
 main .table-contain p b {
@@ -108,26 +109,29 @@ main .table-contain p b {
 }
 
 main .table-contain table .coins {
-  color: #b5b0ac;
+  color: #636261;
   font-weight: 500;
   padding-left: 5px;
 }
 
 main .table-contain table .price {
-  color: #757575;
+  color: #555353d7;
+  text-align: center;
 }
 
 main .main-contain-features {
   background-color: #201e1c;
   color: #fff;
   padding-bottom: 30px;
+  position: relative;
 }
 
-main .batata {
+main .main-contain-features .batata {
   position: absolute;
   left: 155px;
   width: 60px;
   height: 45px;
+  top: calc(0% - 18.5px);
 }
 main .main-contain-features h2 {
   margin: 20px;
@@ -137,7 +141,7 @@ main .main-contain-features h2 {
 }
 
 main .main-contain-features p {
-  color: #808080;
+  color: #9c9999;
   font-size: 17px;
 }
 
@@ -147,6 +151,7 @@ main .main-contain-features .contain-card-feature {
   background-color: #282623;
   border-radius: 10px;
   padding: 16px;
+  box-shadow: 1px 1px #f7931a;
 }
 
 main .contain-card-feature h2 {
@@ -199,6 +204,8 @@ main .main-contain-plan .outstanding {
   background-color: #F7931A;
   color: #fff;
   border-radius: 10px;
+  position: absolute;
+  top: -5px;
 }
 main .main-contain-plan .card-plan {
   width: 230px;
@@ -207,10 +214,12 @@ main .main-contain-plan .card-plan {
   background-color: #fff;
   box-shadow: 2px 2px #b2b0abd1;
   padding-top: 16px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 main .card-plan b {
