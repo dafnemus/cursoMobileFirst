@@ -74,6 +74,7 @@ main .main-contain-bit p {
 
 main .main-contain-bit .table-contain {
   text-align: start;
+  font-family: 'Inter', sans-serif;
 }
 main .table-contain #title-table {
   color: #ff9536;
@@ -86,7 +87,6 @@ main .table-contain table {
   background-color: white;
   border-radius: 10px;
   margin: 10px;
-  font-family: 'Inter', sans-serif;
   font-size: 20px;
 }
 
@@ -100,7 +100,6 @@ main .table-contain p {
   padding: 8px;
   background-color: #ffe9d4;
   border-radius: 10px;
-  font-family: 'Inter', sans-serif;
 }
 
 main .table-contain p b {
