@@ -76,7 +76,7 @@ main .main-contain-bit .table-contain {
   text-align: start;
   font-family: 'Inter', sans-serif;
 }
-main .table-contain #title-table {
+main .table-contain .title-table {
   color: #ff9536;
   font-size: 23px;
 }
@@ -194,7 +194,7 @@ main .main-contain-plan p {
   color: #757575;
 }
 
-main .main-contain-plan #outstanding {
+main .main-contain-plan .outstanding {
   padding: 15px;
   background-color: #F7931A;
   color: #fff;
@@ -225,7 +225,7 @@ main .card-plan p {
 }
 
 
-main .card-plan #clarification {
+main .card-plan .clarification {
   font-size: 16px;
   color: #757575;
   padding: 15px;
