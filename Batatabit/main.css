@@ -93,7 +93,7 @@ main .main-contain-bit .table-contain {
   font-family: 'Inter', sans-serif;
 }
 main .table-contain .title-table {
-  color: #ff9536;
+  color: #636261;
   font-size: 20px;
   margin-left: 20px;
 }
@@ -104,13 +104,14 @@ main .table-contain table {
   border-radius: 10px;
   margin: 10px;
   font-size: 20px;
+  text-align: center;
 }
 
 main
 td {
-  box-shadow: 2px 2px orange;
+  box-shadow: 2px 2px #ffa500;
   border-radius: 4px;
-  background-color: #ffe9d4;
+  background-color: #fdfaf7;
   border: 1px solid #949191;
 }
 
@@ -119,6 +120,7 @@ main .table-contain p {
   background-color: #ffe9d4;
   border-radius: 10px;
   color: #000;
+  text-align: center;
 }
 
 main .table-contain p b {
@@ -140,7 +142,6 @@ main .table-contain table .coins {
 
 main .table-contain table .price {
   color: #555353d7;
-  text-align: center;
 }
 
 main .main-contain-features {
@@ -156,6 +157,10 @@ main .main-contain-features .batata {
   width: 60px;
   height: 45px;
   top: calc(0% - 18.5px);
+  background-color: #282623;
+  padding: 5px;
+  border-radius: 16%;
+  box-shadow: 1px 1px #ffa500;
 }
 main .main-contain-features h2 {
   margin: 20px;
