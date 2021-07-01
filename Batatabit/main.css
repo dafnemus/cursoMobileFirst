@@ -8,7 +8,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-size: 15px;
   text-align: center;
-  background-color: #e5e5e569;
+  background-color: #ffe9d4;
   height: 100%;
 }
 
@@ -101,7 +101,6 @@ main .table-contain .title-table {
 main .table-contain table {
   width: 230px;
   height: 200px;
-  background-color: #fff;
   border-radius: 10px;
   margin: 10px;
   font-size: 20px;
@@ -109,7 +108,10 @@ main .table-contain table {
 
 main
 td {
-  box-shadow: 1px 1px #7977755c;
+  box-shadow: 2px 2px orange;
+  border-radius: 4px;
+  background-color: #ffe9d4;
+  border: 1px solid #949191;
 }
 
 main .table-contain p {
@@ -122,6 +124,12 @@ main .table-contain p {
 main .table-contain p b {
   font-weight: 700;
   color: #000000;
+}
+
+main .table-contain table img {
+  width: 25px;
+  height:20px;
+  margin-left: 5px;
 }
 
 main .table-contain table .coins {
@@ -254,6 +262,7 @@ main .main-contain-plan .card-plan {
   margin: 21px 0px 20px 9px;
   background-color: #fff;
   border-radius: 10px;
+  border: 1px solid orange;
   box-shadow: 2px 2px #b2b0abd1;
 }
 
