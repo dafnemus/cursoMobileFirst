@@ -92,6 +92,7 @@ main .main-contain-bit .table-contain {
   text-align: start;
   font-family: 'Inter', sans-serif;
 }
+
 main .table-contain .title-table {
   color: #636261;
   font-size: 20px;
@@ -162,6 +163,7 @@ main .main-contain-features .batata {
   border-radius: 16%;
   box-shadow: 1px 1px #ffa500;
 }
+
 main .main-contain-features h2 {
   margin: 20px;
   padding-top: 66px;
@@ -217,6 +219,7 @@ main .main-contain-plan {
   flex-direction: column;
   justify-content: center;
 }
+
 main .main-contain-plan h2 {
   padding-top: 30px;
   font-size: 24px;
@@ -235,11 +238,13 @@ main .contain-cards {
   scroll-snap-type: x proximity;
   margin: 0px 30px;
 }
+
 main .contain-cards::-webkit-scrollbar {
   background-color: #ffe9d4;
   height: 3px;
   width: 10px;
 }
+
 main .contain-cards::-webkit-scrollbar-thumb {
   background-color: #f7931a;
 }
@@ -275,7 +280,6 @@ main .card-plan b {
   font-size: 75px;
   color: #000000;
   vertical-align: middle;
-
 }
 
 main .card-plan p {

@@ -1,14 +1,14 @@
 header img {
-    height: 80px;
-    margin: 50px;
+  height: 80px;
+  margin: 50px;
 }
 
 main .main-contain-bit h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 main .main-contain-bit p {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 main .main-contain-bit .table-contain {
@@ -16,19 +16,19 @@ main .main-contain-bit .table-contain {
 }
 
 main .main-contain-features .batata {
-    left: 600px;
-    width: 80px;
+  left: 600px;
+  width: 80px;
 }
 
 main .main-contain-features .laptop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 main .main-contain-plan {
-    align-items: center;
+  align-items: center;
 }
 
 footer .footer-right img {
-    width: 75px;
+  width: 75px;
 }

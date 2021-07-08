@@ -1,114 +1,115 @@
 header {
-    height: 381px;
+  height: 381px;
 }
 
 header img {
-    height: 55px;
+  height: 55px;
 }
 
 header h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 header p {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 header a {
-    font-size: 20px;
-    left: calc(50% - 147px);
+  font-size: 20px;
+  left: calc(50% - 147px);
 }
 
 header .icon-dropdown {
-    width: 20px;
+  width: 20px;
 }
 
 main .img-bit {
-    width: 400px;
-    height: 300px;
+  width: 400px;
+  height: 300px;
 }
 
 main .main-contain-bit h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 main .main-contain-bit p {
-    font-size: 20px;
-    margin: 0 25px;
+  font-size: 20px;
+  margin: 0 25px;
 }
 
 main .table-contain {
-    margin: 30px 0;
+  margin: 30px 0;
 }
+
 main .table-contain .title-table {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 main .table-contain table {
-    width: 400px;
-    height: 300px;
-    font-size: 27px;
+  width: 400px;
+  height: 300px;
+  font-size: 27px;
 }
 
 main .table-contain table img {
-    width: 27px;
-    height: 24px;
-    vertical-align: middle;
+  width: 27px;
+  height: 24px;
+  vertical-align: middle;
 }
 
 main .main-contain-features .batata {
-    left: 350px;
-    width: 70px;
-    height: 60px;
-    top: calc(0% - 28.5px);
+  left: 350px;
+  width: 70px;
+  height: 60px;
+  top: calc(0% - 28.5px);
 }
 
 main .main-contain-features h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 main .main-contain-features p {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 main .main-contain-features .contain-card-feature {
-    padding: 20px;
+  padding: 20px;
 }
 
 main .contain-card-feature .icon-feature {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
 main .main-contain-image {
-    height: 600px;
+  height: 600px;
 }
 
 main .main-contain-image h2 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 main .main-contain-plan h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 main .main-contain-plan p {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 footer {
-    height: 165px;
+  height: 165px;
 }
 
 footer .footer-left {
-    justify-content: center;
-    flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
 }
 
 footer ul li a {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 footer .footer-right {
-    font-size: 17px;
+  font-size: 17px;
 }
