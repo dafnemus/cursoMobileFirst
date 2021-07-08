@@ -2,22 +2,40 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --orange: #f7931a;
+  --soft-orange: #ffe9d4;
+  --warm-black: #201e1c;
+  --soft-black: #282623;
+  --off-white: #fAf8f7;
+  --white: #fff;
+  --black: #000;
+  --c1: #5d5e5e;
+  --orange-2: #ffa500;
+  --gray: #9c9999;
+  --table: #555353d7;
+  --gray-2: #636261;
+  --soft-gray: #949191;
+  --soft-gray-2: #757575;
+  --plate: #b2b0abd1;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "DM Sans", sans-serif;
   font-size: 15px;
   text-align: center;
-  background-color: #ffe9d4;
+  background-color: var(--soft-orange);
   height: 100%;
 }
 
 header {
   text-align: center;
-  background: linear-gradient(to right top,#F7931A, #201E1C);
+  background: linear-gradient(to right top,var(--orange), var(--warm-black));
   width: 100%;
   height: 330px;
-  color: #fff;
+  color: var(--white);
   position: relative;
 }
 
@@ -33,7 +51,7 @@ header h2 {
 
 header p {
   margin: 20px;
-  color: #FFE9D5;
+  color: var(--soft-orange);
 }
 
 header a {
@@ -46,9 +64,9 @@ header a {
   text-align: center;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 1px 1px #5d5e5e;
-  background-color: #ffe9d4;
-  color: #000;
+  box-shadow: 0 1px 1px var(--c1);
+  background-color: var(--soft-orange);
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -83,7 +101,7 @@ main .main-contain-bit h2 {
 }
 
 main .main-contain-bit p {
-  color: #757575;
+  color: var(--soft-gray-2);
   font-size: 16px;
   margin: 0px 20px 20px 20px;
 }
@@ -94,7 +112,7 @@ main .main-contain-bit .table-contain {
 }
 
 main .table-contain .title-table {
-  color: #636261;
+  color: var(--gray-2);
   font-size: 20px;
   margin-left: 20px;
 }
@@ -110,23 +128,23 @@ main .table-contain table {
 
 main
 td {
-  box-shadow: 2px 2px #ffa500;
+  box-shadow: 2px 2px var(--orage-2);
   border-radius: 4px;
-  background-color: #fdfaf7;
-  border: 1px solid #949191;
+  background-color: var(--off-white);
+  border: 1px solid var(--soft-gray);
 }
 
 main .table-contain p {
   padding: 8px;
-  background-color: #ffe9d4;
+  background-color: var(--soft-orange);
   border-radius: 10px;
-  color: #000;
+  color: var(--black);
   text-align: center;
 }
 
 main .table-contain p b {
   font-weight: 700;
-  color: #000000;
+  color: var(--black);
 }
 
 main .table-contain table img {
@@ -136,18 +154,18 @@ main .table-contain table img {
 }
 
 main .table-contain table .coins {
-  color: #636261;
+  color: var(--gray-2);
   font-weight: 500;
   padding-left: 5px;
 }
 
 main .table-contain table .price {
-  color: #555353d7;
+  color: var(--table);
 }
 
 main .main-contain-features {
-  background-color: #201e1c;
-  color: #fff;
+  background-color: var(--warm-black);
+  color: var(--white);
   padding-bottom: 30px;
   position: relative;
 }
@@ -158,10 +176,10 @@ main .main-contain-features .batata {
   width: 60px;
   height: 45px;
   top: calc(0% - 18.5px);
-  background-color: #282623;
+  background-color: var(--soft-black);
   padding: 5px;
   border-radius: 16%;
-  box-shadow: 1px 1px #ffa500;
+  box-shadow: 1px 1px var(--orage-2);
 }
 
 main .main-contain-features h2 {
@@ -172,17 +190,17 @@ main .main-contain-features h2 {
 }
 
 main .main-contain-features p {
-  color: #9c9999;
+  color: var(--gray);
   font-size: 17px;
 }
 
 main .main-contain-features .contain-card-feature {
   text-align: start;
   margin: 20px;
-  background-color: #282623;
+  background-color: var(--soft-black);
   border-radius: 10px;
   padding: 16px;
-  box-shadow: 1px 1px #f7931a;
+  box-shadow: 1px 1px var(--orange);
 }
 
 main .contain-card-feature h2 {
@@ -209,7 +227,7 @@ main .main-contain-image{
 
 main .main-contain-image h2 {
   margin: 0;
-  color: #fff;
+  color: var(--white);
   font-size: 27px;
   padding: 60px;
 }
@@ -227,7 +245,7 @@ main .main-contain-plan h2 {
 
 main .main-contain-plan p {
   font-size: 17px;
-  color: #757575;
+  color: var(--soft-gray-2);
 }
 
 main .contain-cards {
@@ -240,24 +258,25 @@ main .contain-cards {
 }
 
 main .contain-cards::-webkit-scrollbar {
-  background-color: #ffe9d4;
+  background-color: var(--soft-orange);
   height: 3px;
   width: 10px;
 }
 
 main .contain-cards::-webkit-scrollbar-thumb {
-  background-color: #f7931a;
+  background-color: var(--orange);
 }
 
 main .main-contain-plan .outstanding {
   padding: 10px;
-  background-color: #F7931A;
-  color: #ffe9d4;
+  background-color: var(--orange);
+  color: var(--soft-orange);
   border-radius: 10px;
   position: absolute;
   top: -15px;
   font-weight: 700;
 }
+
 main .main-contain-plan .card-plan {
   display: flex;
   scroll-snap-align: center;
@@ -270,20 +289,20 @@ main .main-contain-plan .card-plan {
   max-width: 300px;
   padding-top: 16px;
   margin: 21px 0 20px 9px;
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 10px;
   border: 1px solid orange;
-  box-shadow: 2px 2px #b2b0abd1;
+  box-shadow: 2px 2px var(--plate);
 }
 
 main .card-plan b {
   font-size: 75px;
-  color: #000000;
+  color: var(--black);
   vertical-align: middle;
 }
 
 main .card-plan p {
-  color: #000000;
+  color: var(--black);
   margin: 0;
   font-size: 19px;
 }
@@ -291,7 +310,7 @@ main .card-plan p {
 
 main .card-plan .clarification {
   font-size: 16px;
-  color: #757575;
+  color: var(--soft-gray-2);
   padding: 15px;
   font-weight: 500;
   font-family: 'Inter', sans-serif;
@@ -303,7 +322,7 @@ main .card-plan button {
   font-size: 16px;
   font-weight: 700;
   padding: 16px;
-  border: 2px solid #F7931A;
+  border: 2px solid var(--orange);
   border-radius: 4px;
   font-family: "DM Sans", sans-serif;
 }
@@ -314,7 +333,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  background-color: #f7931a;
+  background-color: var(--orange);
   font-size: 15px;
   margin-top: 70px;
 }
@@ -335,7 +354,7 @@ footer .footer-left {
 footer .footer-right {
   justify-content: flex-end;
   font-size: 14px;
-  color: #fff;
+  color: var(--white);
   font-weight: 700;
 }
 
@@ -347,7 +366,7 @@ footer ul li a {
   color: #3c4043;
   text-decoration: none;
   cursor: pointer;
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
   padding: 17px;
 }
